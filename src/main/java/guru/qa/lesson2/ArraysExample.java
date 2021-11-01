@@ -53,8 +53,8 @@ public class ArraysExample {
                 iterator.remove();
             }
             Set<String> stringSet = new HashSet<>();
-            //содержит только уникальные объекты
-            //неупорядоченное хранение данных
+            //Set содержит только уникальные объекты
+            //HashSet - неупорядоченное хранение данных
             Set<String> inkedStringSet = new LinkedHashSet<>();
             //данные сохраняются в первоначальном порядке
             Set<String> treeStringSet = new TreeSet<>();
